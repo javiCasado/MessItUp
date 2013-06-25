@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Arbol</title>
+<script type="text/javascript" src="js/arbol.js"></script>
+<link rel="stylesheet" type="text/css" href="css/arbol.css">
+
+</head>
+
+<body>
+<div id="arbolDiv">
+	<img id="arbol" src="" alt="arbol" />
+	
+</div>
+<div id="botonera">
+	<button id="aButton" value="A" onclick="sumarLetra('A')"> A </button>
+	<button id="bButton" value="B" onclick="sumarLetra('B')"> B </button>
+	<button id="cButton" value="C" onclick="sumarLetra('C')"> C </button>
+	<button id="dButton" value="D" onclick="sumarLetra('D')"> D </button>
+	<button id="eButton" value="E" onclick="sumarLetra('E')"> E </button>
+	<button id="fButton" value="F" onclick="sumarLetra('F')"> F </button>
+	<button id="gButton" value="G" onclick="sumarLetra('G')"> G </button>
+	<button id="hButton" value="H" onclick="sumarLetra('H')"> H </button>
+	<button id="iButton" value="I" onclick="sumarLetra('I')"> I </button>
+	<button id="jButton" value="J" onclick="sumarLetra('J')"> J </button>
+	<button id="kButton" value="K" onclick="sumarLetra('K')"> K </button>
+	<button id="lButton" value="L" onclick="sumarLetra('L')"> L </button>
+	<button id="mButton" value="M" onclick="sumarLetra('M')"> M </button>
+	<button id="nButton" value="N" onclick="sumarLetra('N')"> N </button>
+	<button id="eneButton" value="Ñ" onclick="sumarLetra('Ñ')"> Ñ </button>
+	<button id="oButton" value="O" onclick="sumarLetra('O')"> O </button>
+	<button id="pButton" value="P" onclick="sumarLetra('P')"> P </button>
+	<button id="qButton" value="Q" onclick="sumarLetra('Q')"> Q </button>
+	<button id="rButton" value="R" onclick="sumarLetra('R')"> R </button>
+	<button id="sButton" value="S" onclick="sumarLetra('S')"> S </button>
+</div>
+<div id="comporbarDiv">
+	<button id="comprobar" value="comprobar" onclick=" verificarRespuesta()"> Comprobar </button>
+</div>
+<div id="tiempo">
+	<label id="time">00:00</label>
+</div>
+
+<div id="respuesta">
+	<label id="aciertos">ACIERTOS:0</label></br>
+	<label id="errores"> ERRORES:0</label>
+</div>
+<div id="cadenaDiv">
+	<label id="cadena">RESPUESTA: </label></br>
+</div>
+
+<div id="startButtonDiv">
+	<button id="startButton" value="start" onclick=" start ()"> <img id="arbol" src="image/botonInit.png" alt="arbol"  /> </button>
+</div>
+<div id="preguntas">
+ 	<label id="subtitulos" ></label>
+</div>
+
+<div id="pointDiv">
+	<img id="point" src="" alt="point" />
+</div>
+
+</body>
+</html>

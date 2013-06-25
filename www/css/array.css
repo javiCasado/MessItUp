@@ -1,0 +1,100 @@
+body{
+	background-color:#000;
+	background-image: url("images/fondoMedio.png");
+}
+
+button{
+	background-color:transparent;
+	visibility: hidden;
+	weight:15%;
+	height: 15%;
+
+}
+
+label{
+	color:#FFF;
+	visibility: hidden;	
+}
+
+/*estilo del boton de inicio*/
+
+#startDiv{
+	z-index: 1;
+	position:absolute;
+	top: 20%;
+	left: 20%;
+	height: 200px;
+	width: 300px;
+}
+
+#startDiv button{
+	visibility:visible;
+	background-color:transparent;
+	border-color: transparent;
+	weight:100%;
+	height: 100%;
+}
+
+
+/*Estilo de la parte superior*/
+#superior
+{
+	overflow: hidden;
+	width: 100%;
+}
+
+#superior div
+{
+	float:left;
+	width:30%;
+	margin-left: 2%;
+}
+
+#superior div label
+{
+	margin-top: 50%;
+}
+
+#divTime{
+	font-size: 30px;
+	text-align: right;
+}
+
+
+/*Estilo del array*/
+#arrayDiv {
+	overflow: hidden;
+	width: 100%;
+	margin-top:10px;
+}
+
+#arrayDiv button{
+	
+	weight:15%;
+	height: 15%;
+	margin-top:1px;
+	
+}
+
+/*Estilo de la parte inferior*/
+
+#newElementDiv{
+	position:absolute;
+	top: 75%;
+	left: 35%;
+}
+
+
+/*estilo de las pantallas de puntuacion*/
+
+#pointDiv{
+	z-index: -2;
+	position:absolute;
+	float:left;
+	width: 100%;
+	height: 80%;
+	border: none;
+	visibility: hidden;
+}
+
+

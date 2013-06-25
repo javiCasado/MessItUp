@@ -1,0 +1,26 @@
+body{
+		background-color:#000;
+		background-image: url("images/fondoMedio.png");
+		background-position: inherit;
+}
+
+#minijuegos1Div
+{
+	overflow: hidden;
+	width: 100%;
+}
+#minijuegos1Div a
+{
+	float:left;
+	width:33.3%;
+	text-align: center;
+}
+
+#minijuegos1Div a img
+{
+	width: 85%;
+	margin: 14px;
+}
+
+
+

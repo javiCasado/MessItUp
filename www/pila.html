@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Pila</title>
+<script type="text/javascript" src="js/pila.js"></script>
+<link rel="stylesheet" type="text/css" href="css/pila.css">
+</head>
+
+<body>
+<div id="punteroDiv">
+	<img id="puntero7" src="image/fondo.png"  alt="Flecha Base" />
+	<img id="puntero6" src="image/fondo.png"  alt="Flecha Base" />
+	<img id="puntero5" src="image/fondo.png"  alt="Flecha Base" />
+	<img id="puntero4" src="image/fondo.png"  alt="Flecha Base" />
+	<img id="puntero3" src="image/fondo.png"  alt="Flecha Base" />
+	<img id="puntero2" src="image/fondo.png"  alt="Flecha Base" />
+	<img id="puntero1" src="image/fondo.png"  alt="Flecha Base" />
+</div>
+<div id="pilaDiv">
+	<img id="pila7" src="image/fondo.png" alt="X"/>
+    <img id="pila6" src="image/fondo.png" alt="X"/>
+    <img id="pila5" src="image/fondo.png" alt="X"/>
+    <img id="pila4" src="image/fondo.png" alt="X"/>
+    <img id="pila3" src="image/fondo.png" alt="X"/>
+    <img id="pila2" src="image/fondo.png" alt="X"/>
+    <img id="pila1" src="image/fondo.png" alt="X"/> 
+</div>
+<div id="accionesDiv">
+    	 <label id="topLabel">Leido: </label>
+       	 <label id="popLabel">Extraido: </label>
+  		 <label id="pushLabel">Introducir: </label>
+</div>
+<div id="botonesDiv">
+    <button id="topButton" name="topButton"  value="TOP" onClick="boton=2;botonTop();"><img id="array" src="image/top.png" alt="top"  /></button>  
+    <button id="popButton" name="popButton"  value="POP" onClick="boton=1;botonPop();"><img id="array" src="image/pop.png" alt="pop"  /></button>
+    <button id="pushButton" name="pushButton" value="PUSH" onClick="boton=0;botonPush();"><img id="array" src="image/push.png" alt="push"  /></button>
+   	<button id="errorButton" name="errorButton" value="ERROR"  onClick="boton=4;verificar();"><img id="array" src="image/error.png" alt="error"  /></button>
+</div>
+<div id="subtitulosDiv">
+	<label id="subtitulos"></label>
+</div>
+<div id="divTime"><label id="time">00:00</label></div>
+
+<div id="combrobarDiv">
+	<button id="confirmarButton" name="confirmarButton" value="CONFIRMAR"  onClick="verificar();"><img id="pilaCom" src="image/comprobar.png" alt="pilaCom" /></button></p>
+	
+</div>
+
+<div id="divTime"><label id="time">00:00</label></div>
+
+ <div id="startDiv">
+     	<button id="startButton" value="startButton" onclick="start()"><img id="array" src="image/botonInit.png" alt="array"  /></button>     
+ </div>
+    
+ <div id="pointDiv">
+		<img id="point" src="" alt="point" />
+</div>
+
+</body>
+</html>

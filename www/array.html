@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link rel="stylesheet" type="text/css" href="css/array.css">
+<link href='http://fonts.googleapis.com/css?family=La+Belle+Aurore&v2' rel='stylesheet' type='text/css'>
+
+<style type="text/css">
+</style>
+<script type="text/javascript" src="js/arrayGame.js"></script>
+
+</head>
+<body>
+	<div id="superior">
+		<div id="saveNumDiv">
+			<label id="saveLabel">Elemento guardado: </label>
+		</div>
+		<div>
+    		<button id="saveNumButton" value="saveNumButton" onclick="guardar=1"><img src="image/fondo.png" id="saveNum" alt="saveNum"></button>
+   		</div>	
+    	<div id="divTime"><label id="time">00:00</label></div>
+    </div>
+	<div id="arrayDiv">
+        <button id="array0" value="array0" onclick="foco=0;guardarElemento(0)"><img id="pos0" src="image/fondo.png"  alt="array0"/></button>
+    	<button id="array1" value="array1" onclick="foco=1;guardarElemento(1)"><img id="pos1" src="image/fondo.png"  alt="array1" /></button>
+  	 	<button id="array2" value="array2" onclick="foco=2;guardarElemento(2)"><img id="pos2" src="image/fondo.png"  alt="array2" /></button>
+ 		<button id="array3" value="array3" onclick="foco=3;guardarElemento(3)"><img id="pos3" src="image/fondo.png"  alt="array3" /></button>
+    	<button id="array4" value="array4" onclick="foco=4;guardarElemento(4)"><img id="pos4" src="image/fondo.png"  alt="array4" /></button>
+    	<button id="array5" value="array5" onclick="foco=5;guardarElemento(5)"><img id="pos5" src="image/fondo.png"  alt="array5" /></button>
+    	<button id="array6" value="array6" onclick="foco=6;guardarElemento(6)"><img id="pos6" src="image/fondo.png"  alt="array6" /></button>
+   		<button id="array7" value="array7" onclick="foco=7;guardarElemento(7)"><img id="pos7" src="image/fondo.png"  alt="array7" /></button>
+    	<button id="array8" value="array8" onclick="foco=8;guardarElemento(8)"><img id="pos8" src="image/fondo.png"  alt="array8" /></button>
+    	<button id="array9" value="array9" onclick="foco=9;guardarElemento(9)"><img id="pos9" src="image/fondo.png"  alt="array9" /></button>
+    	<button id="array10" value="array10" onclick="foco=10;guardarElemento(10)"><img id="pos10" src="image/fondo.png"  alt="array10" /></button>
+    	<button id="array11" value="array11" onclick="foco=11;guardarElemento(11)"><img id="pos11" src="image/fondo.png"  alt="array11" /></button>
+    	<button id="array12" value="array12" onclick="foco=12;guardarElemento(12)"><img id="pos12" src="image/fondo.png"  alt="array12" /></button>
+    	<button id="array13" value="array13" onclick="foco=13;guardarElemento(10)"><img id="pos13" src="image/fondo.png"  alt="array13" /></button>
+    	<button id="array14" value="array14" onclick="foco=14;guardarElemento(11)"><img id="pos14" src="image/fondo.png"  alt="array14" /></button>
+    	<button id="array15" value="array15" onclick="foco=15;guardarElemento(12)"><img id="pos15" src="image/fondo.png"  alt="array15" /></button>
+    </div>
+    
+    <div id="newElementDiv">
+    	  <label id="newLabel">Guardar elemento  </label>
+    	  <button id="newElement" value="" onclick="introducir()"><img id="newElementImg" src="image/fondo.png" alt="newElement" /></button>
+          <label id="position"> en posicion: </label>
+    </div>
+    <div id="startDiv">
+     	<button id="startButton" value="startButton" onclick="start()"><img id="array" src="image/botonInit.png" alt="array"  /></button>     
+    </div>
+    
+    <div id="pointDiv">
+		<img id="point" src="" alt="point" />
+	</div>
+    
+</body>
+</html>
+ 

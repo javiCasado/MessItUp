@@ -1,0 +1,113 @@
+
+html, body { height: 100%; }
+
+body{
+	background:#000;
+	background-image: url("images/fondoMedio.png");
+	background-position: inherit;
+	
+}
+
+label{
+	color:#FFF;
+}
+button{
+	background-color: transparent;
+	border-color: transparent;
+	visibility: hidden;
+}
+/*posicion de los niveles*/
+
+.level{
+	visibility:hidden;
+	position:absolute;
+	top:20%;
+	
+}
+.level button{
+	background-color: transparent;
+	border-color: white;
+}
+
+/*estilo de los label de informacion*/
+#posicion{
+	position:absolute;
+	bottom: 10%;
+}
+
+/*estilo del boton de inicio*/
+#startDiv{
+	z-index: 1;
+	position:absolute;
+	top: 20%;
+	left: 20%;
+	height: 200px;
+	width: 300px;
+}
+
+#initButton{
+	position: absolute;	
+	visibility: visible;
+	border-color: transparent;
+	background-color: transparent;
+}
+
+#initButton img{
+	width: 100%;
+	height: 100%;
+}
+
+/*estilo de las pantallas de puntuacion*/
+
+#pointDiv{
+	z-index: -2;
+	position:absolute;
+	float:left;
+	width: 100%;
+	height: 80%;
+	visibility: hidden;
+}
+
+/*estilo del tiempo*/
+#tiempo{
+	position: absolute;
+	top: 5%;
+	left: 10%;
+	height: 15%;
+	width: 90%;
+}
+#tiempo button {
+	height: 90%;	
+}
+#tiempo button  img{
+	height: 100%;	
+}
+#time{
+	visibility: hidden;
+	font-size: 30px;
+	position: absolute;
+	left: 85%;
+	
+}
+
+/*estilo de los botones de control*/
+#botones{
+	position:absolute;
+	bottom: 1%;
+	right: 10%;
+	height: 20%;
+	width: 20%;
+}
+
+#botones button{
+	height: 100%;
+	width: 100%;
+}
+#botones button img
+{
+	height: 100%;
+	width: 100%;
+}
+
+
+

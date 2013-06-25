@@ -1,0 +1,167 @@
+body{
+	background-color: #000;
+	background-image: url("images/fondoMedio.png");
+	background-position: inherit;
+}
+	
+label{
+	color:#FFF;
+}
+button{
+	border-color: transparent;
+	background-color: transparent;
+}
+
+
+div{
+	visibility: hidden;
+}
+
+/*posicion de los punteros*/
+#punteroDiv{
+	z-index:-1;
+	float:left;
+	width:15%;
+	height:80%;	
+	
+}
+
+#punteroDiv img{
+	float:left;
+	width: 100%;
+	height: 12%;
+	border: solid;
+	border-color: transparent;
+}
+
+/*posicion de la pila*/
+#pilaDiv{
+	z-index:-1;
+	float:left;
+	width:10%;
+	height:80%;	
+	box-sizing: border-box;
+	margin: 1%;
+}
+#pilaDiv img{
+	float:left;
+	width: 100%;
+	height: 12%;
+	border:solid;
+	border-color: white;
+}
+
+/*posicion de las acciones*/
+#accionesDiv{
+	z-index:1;
+	float:left;
+	width:25%;
+	height:100%;
+	box-sizing: border-box;
+	margin-left: 2%;
+	text-align: left;
+}
+#accionesDiv label{
+	float:left;
+	width: 100%;
+	height: 33%;
+}
+
+/*posicion de los botones*/
+#botonesDiv{
+	z-index:1;
+	float:left;
+	width:20%;
+	height:100%;
+	box-sizing: border-box;
+	margin: 1%;
+
+}
+#botonesDiv button{
+	width: 100%;
+	height: 20%;
+}
+#botonesDiv button img{
+	width: 100%;
+	height: 100%;
+}
+
+
+/*estilo de las pantallas de puntuacion*/
+
+#pointDiv{
+	z-index: -2;
+	position:absolute;
+	float:left;
+	width: 100%;
+	height: 80%;
+	border: none;
+
+}
+
+/*posicion del boton comprobar*/
+#combrobarDiv{
+	z-index:-1;
+	position: absolute;
+	right:3%;
+	top:40%;
+	width: 20%;
+}
+
+#combrobarDiv button{
+	width: 100%;
+}
+#combrobarDiv button img{
+	width:100%;
+}
+/*posicion de el tiempo*/
+
+#divTime{
+	z-index: -1;
+	float: right;
+	width: 15%;
+	margin-right: 3%;
+}
+
+#time{
+	font-size: 30px;
+}
+
+
+/*estilo del boton de inicio*/
+
+#startDiv{
+	z-index: 1;
+	visibility: visible;
+	position:absolute;
+	top: 20%;
+	left: 20%;
+	height: 200px;
+	width: 300px;
+}
+
+#startDiv button{
+	visibility:visible;
+	background-color:transparent;
+	border-color: transparent;
+	weight:100%;
+	height: 100%;
+}
+
+/*Estilo tiempo*/
+
+#pointDiv{
+	z-index:-1;
+	float: right;
+	width: 15%;
+}
+
+/*posicion de los subtitulos*/
+#subtitulosDiv{
+	position: absolute;
+	left: 2%;
+	bottom:2%;
+	font-size: 20px;
+	text-align: center;
+}
+
